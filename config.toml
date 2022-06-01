@@ -11,7 +11,7 @@ theme = 'terminal'
   themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 3
 
   # show selector to switch language
   showLanguageSelector = false
@@ -81,10 +81,14 @@ theme = 'terminal'
 
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "/posts"
+        url = "/posts"
+      [[languages.en.menu.main]]
         identifier = "about"
-        name = "About"
+        name = "/about"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "now"
+        name = "/now"
+        url = "/now"
